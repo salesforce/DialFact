@@ -14,7 +14,7 @@ To study the problem of Fact-Checking in Dialogue, we construct and introduce DI
 ## Dataset Details
 
 The statistics for the Test and Validation sets are shown in the figure below. 
-(Note that the numbers are a bit different from the first version of arxiv draft). 
+
 ![Data stats](/images/stats.png?raw=true "Data Stats")
 
 The test and validation are present in the data folder of this repo.
