@@ -5,7 +5,7 @@ Paper link: https://arxiv.org/pdf/2110.08222
 
 
 ## Abstract
-To study the problem of Fact-Checking in Dialogue, we construct and introduce DIALFACT, a testing benchmark dataset of 22,123 annotated conversational claims, paired with pieces of evidence from Wikipedia. There are three sub-tasks in DIALFACT: 1) Verifiable claim detection task distinguishes whether a response carries verifiable factual information; 2) Evidence retrieval task retrieves the most relevant Wikipedia snippets as evidence; 3) Claim verification task predicts a dialogue response to be supported, refuted, or not enough information.
+To study the problem of Fact-Checking in Dialogue, we construct and introduce DIALFACT, a testing benchmark dataset crowd-annotated conversational claims, paired with pieces of evidence from Wikipedia. There are three sub-tasks in DIALFACT: 1) Verifiable claim detection task distinguishes whether a response carries verifiable factual information; 2) Evidence retrieval task retrieves the most relevant Wikipedia snippets as evidence; 3) Claim verification task predicts a dialogue response to be supported, refuted, or not enough information.
 
 
 
@@ -17,6 +17,9 @@ The statistics for the Test and Validation sets are shown in the figure below.
 (Note that the numbers are a bit different from the first version of arxiv draft). 
 ![Data stats](/images/stats.png?raw=true "Data Stats")
 
+The test and validation are present in the data folder of this repo.
+
+The synthetic training dataset for AugWoW model is present here: [data](https://drive.google.com/drive/folders/1CSciq9f3ZOvLuNk9m3aDElPVVLjpYfuv?usp=sharing)
 
 ### Data format
 Description of keys and values present in the dataset files:
@@ -40,9 +43,10 @@ Description of keys and values present in the dataset files:
 ## Results
 
 The results for claim verification on test set. 
-(Note that the results are a bit different from the first version of arxiv draft. Results in this repo are the latest.). 
 ![Test Results](/images/testveri.png?raw=true "Test Results")
 
+
+The results for claim verification on validation set. 
 ![Validation Results](/images/validationveri.png?raw=true "Validation Results")
 
 
